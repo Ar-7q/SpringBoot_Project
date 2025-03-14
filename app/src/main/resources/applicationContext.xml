@@ -1,12 +1,14 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
-                  http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- Define UserConfig Bean -->
     <bean id="userConfigBean" class="org.example.bean.UserConfig">
-     <property name="name" value="John Doe"/>
-     <property name="className" value="exampleClass"/>
+        <property name="name" value="John Doe"/>
+        <property name="className" value="exampleClass"/>
     </bean>
 
 </beans>
+
 

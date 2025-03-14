@@ -35,7 +35,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security' // Security features
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' // Thymeleaf support
 
-    runtimeOnly 'org.postgresql:postgresql' // Example database dependency
+    runtimeOnly 'com.h2database:h2'
+// Example database dependency
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
